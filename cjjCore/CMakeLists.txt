@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.19)
+project(cjjCore)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(cjjCore main.cpp)
+add_executable(inline src/inline/inline.cpp)
+add_executable(storage src/storage/storage.cpp)
+add_executable(quote src/quote/quote.cpp)
+add_executable(high_fun src/high_fun/high_fun.cpp)
+add_executable(person src/class/person/person.cpp)
+add_executable(car src/class/person/car.cpp)
+add_executable(friend src/class/friend/friend.cpp)
+add_executable(overload_operator src/class/overload_operator/overload_operator.cpp)
+add_executable(inherit src/class/inherit/inherit.cpp)
+add_executable(polymorphism src/class/polymorphism/polymorphism.cpp)
+add_executable(file src/file/file.cpp)
